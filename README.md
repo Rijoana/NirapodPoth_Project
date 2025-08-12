@@ -12,8 +12,10 @@ data editing**, while allowing admins to moderate and flag misleading or inappro
 content.   
 The project reflects **real-world concerns**, with a strong emphasis on **user privacy, 
 responsible reporting, and community awareness**. 
+
 ## Objectives - Provide a **secure platform** for women to report safety-related incidents anonymously or 
 with verified identity. - Store and manage all data through a **well-structured relational database**. - Enable incident tracking based on **predefined geographic zones**. - Provide administrators tools to **manage, monitor, and flag reports** as necessary. 
+
 ## Reporting Protocols 
 To ensure **report authenticity** and protect system integrity, the following rules must be 
 followed before submitting a report: 
@@ -27,9 +29,11 @@ publicly).
 7. **Anonymous submissions** must not contain identifying personal details in the 
 description. 
 8. Any report violating these protocols **may be flagged as fake** by an admin and removed 
-from public view. 
+from public view.
+
 ## Key Features - **User Registration** with name, email, password, and NID for identity verification. - **Secure Login System** for reporting and dashboard access. - **Incident Reporting Form** with type, location, description, and incident time. 
-- **Protocol Enforcement** to maintain report quality and authenticity. - **Anonymous Reporting** option to hide user identity from others. - **Separate Incident Time Field** (different from submission time). - **User Dashboard** to view and edit previous reports. - **Post-Report Safety Check**: “Are you safe now?” for emotional feedback. - **Admin Dashboard** to view, approve, or flag reports. - **Risky Location Highlight** based on the number of submitted reports. - **Fake Report Flagging** by admin for protocol violations. 
+- **Protocol Enforcement** to maintain report quality and authenticity. - **Anonymous Reporting** option to hide user identity from others. - **Separate Incident Time Field** (different from submission time). - **User Dashboard** to view and edit previous reports. - **Post-Report Safety Check**: “Are you safe now?” for emotional feedback. - **Admin Dashboard** to view, approve, or flag reports. - **Risky Location Highlight** based on the number of submitted reports. - **Fake Report Flagging** by admin for protocol violations.
+-  
 ##  Technology Stack 
 | Component      | Technology Used | 
 |----------------|-----------------| 
@@ -40,22 +44,18 @@ from public view.
 | PHP | 
 | MySQL | 
 | Hosting (Dev)  | XAMPP | 
+
 ##  DBMS Concepts Applied 
-| Concept              
-| Implementation | 
+| Concept              | Implementation | 
 |----------------------|----------------| 
 | Relational Modeling  | Users, Reports, and Locations linked via foreign keys | 
-| DDL & DML            
-| SQL-based table creation, update, insert, delete | 
-| Normalization        
-| Joins                
-| Constraints          
-| All tables follow **2NF structure** | 
-| Used in admin dashboard and user report views | 
-| Primary/Foreign Keys ensure relational integrity | 
+| DDL & DML            | SQL-based table creation, update, insert, delete | 
+| Normalization        | All tables follow **2NF structure** |         
+| Joins                | Used in admin dashboard and user report views | 
+| Constraints          | Primary/Foreign Keys ensure relational integrity | 
 | Filtering & Grouping | Used to highlight most-reported locations | 
-| Security             
-| Passwords hashed; NID stored privately | 
+| Security             | Passwords hashed; NID stored privately | 
+
 ## Database Design 
 ![ER Diagram] (https://github.com/Rijoana/NirapodPoth_Project/blob/5bb65f295c0c6f2baaf0facd47cbea26273fbd2d/NirapodPoth.drawio.png) 
 
