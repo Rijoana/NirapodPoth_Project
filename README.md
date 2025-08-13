@@ -68,7 +68,7 @@ from public view.
 ![ER Diagram] (https://github.com/Rijoana/NirapodPoth_Project/blob/5bb65f295c0c6f2baaf0facd47cbea26273fbd2d/NirapodPoth.drawio.png) 
 
 
-## Group Deatil
+## Group Detail
 ### ● Sreya Ghosh – 231-115-051 
 ### ● Shamima Akther Bhuiya – 231-115-066 
 ### ● Rijoana Rasheda Salam – 231-115-076 
